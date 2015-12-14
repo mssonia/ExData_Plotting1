@@ -21,7 +21,7 @@ png(filename="plot4.png", height=480, width=480, bg="transparent")
 par(mfrow=c(2,2))
 
 # Plot 1
-plot(plotDataset$Datetime, plotDataset$Global_active_power, type="l", xlab="datetime", ylab="Global_reactive_power")
+plot(plotDataset$Datetime, plotDataset$Global_active_power, type="l", xlab="", ylab="Global_reactive_power")
 
 # Plot 2  
 plot(plotDataset$Datetime, plotDataset$Voltage, type="l", xlab="datetime", ylab="Voltage")
